@@ -1,8 +1,10 @@
 export default {
-    increment(state) {
-        state.count++
-    },
-    decrement(state) {
-        state.count--
-    }
+  increment(state, parm) {
+    window.console.log(parm)
+    state.count++
+  },
+  decrement(state, parm) {
+    window.console.log(parm)
+    state.count--
+  }
 }

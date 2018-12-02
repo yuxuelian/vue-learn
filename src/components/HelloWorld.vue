@@ -1,8 +1,8 @@
 <template>
   <div class="hello">
     {{$store.state.count}}
-    <button @click="increment">增加</button>
-    <button @click="decrement">删除</button>
+    <button @click="increment(10)">增加</button>
+    <button @click="decrement(20)">删除</button>
   </div>
 </template>
 
